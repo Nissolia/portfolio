@@ -1,12 +1,41 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Índice con Bootstrap</title>
+  <!-- Agregar enlaces a Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    /* Estilos adicionales personalizados */
+    .centered {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh; /* Altura total del viewport */
+    }
+  </style>
 </head>
 <body>
-    <h1>Prueba 2</h1>
+
+  <div class="container centered">
+    <div class="row">
+      <div class="col-md-6">
+        <h1>Bienvenido</h1>
+        <p>Este es un índice básico utilizando Bootstrap con divs centrados.</p>
+        <ul>
+          <li><a href="#">Página 1</a></li>
+          <li><a href="#">Página 2</a></li>
+          <li><a href="#">Página 3</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Agregar enlaces a Bootstrap JS y jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
+
