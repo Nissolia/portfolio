@@ -1,8 +1,9 @@
 /* Navbar */
 ul {
+    padding-left: 10%;
     list-style-type: none;
     margin: 0;
-    padding: 0;
+
     overflow: hidden;
 }
 
@@ -19,19 +20,26 @@ li a {
 }
 
 li a:hover {
-    color: rgb(51, 51, 51);
+    color: rgb(77, 77, 77);
 }
+
 /*Logo*/
-.logo{
+.logo {
     width: 50px;
     float: right;
-    padding-right: 20px;
+    padding-right: 10%;
 }
+/*tabla*/
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  tr {
+    border-bottom: 1px solid #ddd;
+  }
 /*Body y eso*/
-.centered {
-    justify-content: center;
-    align-items: center;
-}
+
 
 body {
 
@@ -52,10 +60,11 @@ footer {
     background-color: #000000;
     text-align: center;
     padding: 10px 0;
+
 }
 
 h1 {
-    color: rgb(64, 110, 153);
+    color: rgb(255, 255, 255);
     text-align: center;
     font-size: 100px;
 }
@@ -64,11 +73,18 @@ h2 {
     opacity: 80%;
     color: rgb(64, 110, 153);
     text-align: center;
-    font-size: 80px;
+    font-size: 60px;
+    font-weight: 200;
 }
 
-.carouselimage {
+h3 {
+    font-size: 30px;
+    color: rgb(64, 110, 153);
+    text-align: center;
+}
 
-    width: auto;
-    height: 2%;
+.testimonio {
+    color: aliceblue;
+    padding-left: 20%;
+    padding-right: 20%;
 }
